@@ -29,7 +29,10 @@ The classification or prediction part will be invoked in the following way:
 The argument is the directory of the test data; the program will read the parameters of a naive Bayes model from the file nbmodel.txt, classify each file in the test data, and write the results to a text file called nboutput.txt in the following format:
 
 label_a label_b path1
+
 label_a label_b path2
-⋮
+
+...
+
 
 In the above format, label_a is either “truthful” or “deceptive”, label_b is either “positive” or “negative”, and pathn is the path of the text file being classified.
