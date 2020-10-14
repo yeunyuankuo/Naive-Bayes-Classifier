@@ -2,7 +2,7 @@
 This is a Naive Bayes Classifier hand written from scratch using only Python's built in library (no pre-written third party packages or libraries are used).
 
 ## Overview
-This Naive Bayes Classifier will be used to identify hotel reviews as either truthful(actual reviews from web) or deceptive(made-up fake reviews), and either positive or negative. I will be using work tokens as features for classification.
+This Naive Bayes Classifier will be used to identify hotel reviews (in english texts) as either truthful(actual reviews from web) or deceptive(made-up fake reviews), and either positive or negative. I will be using work tokens as features for classification.
 
 ## Data
 - A top-level directory with two sub-directories, one for positive reviews and another for negative reviews.
